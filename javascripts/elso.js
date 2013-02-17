@@ -1,7 +1,7 @@
 var gomb;
 var tomb = new Array();
 var szamlalo = 0;
-var msg;
+var msg="";
 
 function minden() {
 	for(szamlalo=0;szamlalo<tomb.length;szamlalo++) {
