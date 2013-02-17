@@ -21,6 +21,9 @@ function reactKey(evt) {
 function setUp() {
 	gomb = document.getElementById('gomb');
 	gomb.addEventListener('click', onClick);
+	forma = document.onkeypress;
+	forma.addEventListener('onkeypress', reactKey)
+	
 }
 
 document.addEventListener('DOMContentLoaded', setUp);
