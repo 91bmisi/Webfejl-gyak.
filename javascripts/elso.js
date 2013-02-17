@@ -15,7 +15,7 @@ function onClick(ev) {
 }
 
 function reactKey(evt) {
-   alert(evt);
+   alert("Ez még látszik?");
 }
 
 function setUp() {
